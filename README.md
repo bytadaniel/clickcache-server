@@ -30,7 +30,7 @@ Clone this repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/bytadaniel/clickcache-server.git
-cd clickhouse-server
+cd clickcache-server
 ```
 
 ### Docker Compose Setup
