@@ -15,6 +15,11 @@ This repository contains a server application that utilizes the [clickcache](htt
 - [Contributing](#contributing)
 - [License](#license)
 
+## Contact me
+Please be free to open issues and create pull requests.
+Join the clickcache dev channel on Telegram and ask be about the project directly
+- https://t.me/clickcache
+
 ## Prerequisites
 
 Before you can use this server, ensure you have the following installed on your system:
