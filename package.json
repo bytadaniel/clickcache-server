@@ -1,0 +1,25 @@
+{
+  "name": "clickcache-server",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "rm -rf lib && tsc -d",
+    "start": "node build/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clickhouse/client": "^0.2.3",
+    "clickcache": "^3.0.4",
+    "cuid": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "env-var": "^7.4.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
