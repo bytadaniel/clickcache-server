@@ -15,6 +15,11 @@ This repository contains a server application that utilizes the [clickcache](htt
 - [Contributing](#contributing)
 - [License](#license)
 
+## Contact me
+Please be free to open issues and create pull requests.
+Join the clickcache dev channel on Telegram and ask be about the project directly
+- https://t.me/clickcache
+
 ## Prerequisites
 
 Before you can use this server, ensure you have the following installed on your system:
@@ -30,7 +35,7 @@ Clone this repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/bytadaniel/clickcache-server.git
-cd clickhouse-server
+cd clickcache-server
 ```
 
 ### Docker Compose Setup
@@ -91,19 +96,23 @@ You can customize the clickcache options by editing these env variables:
 
 ## Run a demo
 To run a demo please follow these steps:
+1. Install all npm dependecies locally
+```bash
+  npm install
+```
 
-1. Run clickcache-server and clickchouse-server
+2. Run clickcache-server and clickchouse-server
 ```bash
   docker-compose up -d
 ```
 
-2. Start data sampler
+3. Start data sampler
 ```bash
   ts-node src/test.ts
 ```
 
-3. Follow the clickcache-server container logs
-4. Check out your dataset in the clickhouse database table
+4. Follow the clickcache-server container logs
+5. Check out your dataset in the clickhouse database table
 
 ## Contributing
 
