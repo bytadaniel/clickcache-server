@@ -20,12 +20,3 @@ services:
       - "${PORT}:${PORT}"  # Map your Express server's port to the host machine
     volumes:
       - ./${CLICKCACHE_DISK_OUTPUT_DIRECTORY}:/app/${CLICKCACHE_DISK_OUTPUT_DIRECTORY}
-
-  # clickhouse-client:
-  #   image: yandex/clickhouse-client:latest
-  #   env_file:
-  #     - .env
-  #   depends_on:
-  #     - clickhouse
-  #   entrypoint: /bin/sh
-  #   command: -c 'while ! nc -z clickhouse 9000; do sleep 1; done; /usr/bin/clickhouse-client --host clickhouse --port 9000'

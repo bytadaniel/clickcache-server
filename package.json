@@ -7,11 +7,11 @@
     "start": "node build/index"
   },
   "keywords": [],
-  "author": "",
+  "author": "https://github.com/bytadaniel",
   "license": "ISC",
   "dependencies": {
     "@clickhouse/client": "^0.2.3",
-    "clickcache": "^3.0.4",
+    "clickcache": "^3.0.6",
     "cuid": "^3.0.0",
     "dotenv": "^16.3.1",
     "env-var": "^7.4.1",
