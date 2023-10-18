@@ -12,6 +12,7 @@ This repository contains a server application that utilizes the [clickcache](htt
   - [Starting the Server](#starting-the-server)
   - [Sending Data to the Server](#sending-data-to-the-server)
 - [Customization](#customization)
+- [Demo](#demo)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -94,8 +95,8 @@ You can customize the clickcache options by editing these env variables:
 - `CLICKCACHE_DATA_WATCHER`
 - `CLICKCACHE_DISK_OUTPUT_DIRECTORY`
 
-## Run a demo
-To run a demo please follow these steps:
+## Demo
+To run a demonstration, please follow these steps:
 1. Install all npm dependecies locally
 ```bash
   npm install
